@@ -69,6 +69,6 @@ function setBackgroundImage(weatherDescription) {
     }
 
     const imageFilename = weatherImages[matchedWeatherType];
-    const imagePath = `assets/imgs/${imageFilename}`;
+    const imagePath = `imgs/${imageFilename}`;
     bodyElement.style.backgroundImage = `url('${imagePath}')`;
 }
